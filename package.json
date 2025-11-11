@@ -1,0 +1,25 @@
+{
+  "name": "elysiajs-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatsu015/elysiajs-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tatsu015/elysiajs-sample/issues"
+  },
+  "homepage": "https://github.com/Tatsu015/elysiajs-sample#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
