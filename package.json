@@ -2,14 +2,19 @@
   "name": "elysiajs-sample",
   "version": "1.0.50",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc src/index.ts --outDir dist",
+    "start": "NODE_ENV=production node dist/index.js"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/node": "^1.4.2",
+    "elysia": "^1.4.15"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "@types/node": "^24.10.1",
+    "bun-types": "latest",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
   },
   "module": "src/index.js"
 }
